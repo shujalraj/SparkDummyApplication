@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        maven 'maven363'
+        maven 'maven363hiv'
     }
     environment {
         ITVERSITY = credentials('itversity')
